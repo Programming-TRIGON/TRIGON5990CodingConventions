@@ -1,0 +1,2 @@
+# TRIGON5990CodingConventions
+
