@@ -13,7 +13,13 @@ public class GeneralConventions {
     // or tuning values that shouldn't change at runtime.
     // =========================================================================
 
-    public static final double MAX_SPEED_METERS_PER_SECOND = 4.5;
+    // Similar constants should be logically grouped together with a single blank
+    // line separating each group. This is especially important in SubsystemConstants.
+    public static final int LEFT_INTAKE_MOTOR_ID = 1;
+    public static final int RIGHT_INTAKE_MOTOR_ID = 2;
+
+    public static final double COLLECTION_VOLTAGE = 5;
+    public static final double EJECTION_VOLTAGE = -3;
 
     // =========================================================================
     // VARIABLE ORDERING & NAMING
@@ -25,8 +31,10 @@ public class GeneralConventions {
     // Naming rules:
     // - ALL static variables (final or not) are UPPER_SNAKE_CASE.
     // - All other variables are lowerCamelCase.
+    // - Boolean variables/methods must start with prefixes like "is" or "should".
     // =========================================================================
 
+    public static final boolean IS_FOC_ENABLED = true;
     public static final int PUBLIC_STATIC_FINAL_VARIABLES_COME_FIRST = 1;
     protected static final int PROTECTED_ACCESS_COMES_AFTER_PUBLIC = 2;
     static final int DEFAULT_ACCESS_COMES_AFTER_PROTECTED = 3;
@@ -42,6 +50,7 @@ public class GeneralConventions {
     private int privateNonStaticNonFinalComesAfterPublic = 10;
 
     public int variableNamesShouldBeClearAndMeaningfulEvenIfTheyAreLong = 11;
+    private boolean isVariableNamingClear = true;
 
     // =========================================================================
     // METHOD ORDERING & STRUCTURE
@@ -70,6 +79,11 @@ public class GeneralConventions {
 
     public void methodNamesShouldBeClearAndMeaningfulEvenIfTheyAreLong() {
         // Method names should thoroughly explain what they do.
+    }
+
+    public boolean isOpen() {
+        // Example of a properly named boolean method
+        return isVariableNamingClear;
     }
 
     /**
