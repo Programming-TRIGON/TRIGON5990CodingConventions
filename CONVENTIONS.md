@@ -10,7 +10,7 @@ Names should always be clear and meaningful, prioritizing descriptiveness over b
 | **Packages** | entirely lowercase | `examplepackage`, `subsystems`                 |
 | **Classes / Interfaces** | UpperCamelCase | `GeneralConventions`, `SwerveDrive`            |
 | **Methods** | lowerCamelCase | `calculateTargetVelocity()`, `stop()`          |
-| **Static Variables** | UPPER_SNAKE_CASE | `MAXIMUM_SPEED`, `TARGET_POSE`                 |
+| **Static Variables** | UPPER_SNAKE_CASE | `MAXIMUM_SPEED`, `TARGET_STATE`                 |
 | **Non-Static Variables** | lowerCamelCase | `currentVelocity`, `targetAngle`               |
 | **Constants (Static Final)** | UPPER_SNAKE_CASE | `WHEEL_RADIUS_METERS`                          |
 | **Enums (Name)** | UpperCamelCase | `IntakeState`, `ElevatorState`                 |
