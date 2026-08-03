@@ -3,8 +3,6 @@
 ## Overview
 This repository serves as the definitive guide for our software team's Java coding conventions. Consistency in our codebase is critical for ensuring that our robot code remains readable, maintainable, and easy to debug during the heat of competition.
 
-Whether you are a new programmer learning the ropes or a veteran writing complex control loops, these standards ensure our codebase looks like it was written by a single, cohesive unit.
-
 ## Why Clean Code & Consistent Conventions?
 
 ### The Cost of Messy Code
@@ -24,11 +22,14 @@ Writing unclean code is even considered rude; it shows a lack of consideration f
 * **How We Achieve It:** We build consistency through design patterns, documentation, language conventions, and having a definitive list of rules for every scenario, which is exactly what this repository provides.
 
 ## Repository Structure
-This repository contains two main types of resources:
-1. **Executable Examples (`.java` files):** We have provided actual Java class `GeneralConventions.java` that compiles and demonstrates our formatting rules in practice. The variable and method names within these files explicitly state the rules they are demonstrating.
+This repository contains two types of resources:
+1. **Executable Examples (`.java` files):** We have provided actual Java class `GeneralConventions.java` that compiles and demonstrates our formatting rules in practice. The variable and method names within the file explicitly state the rules they are demonstrating.
 2. **Documentation (`CONVENTIONS.md`):** A human-readable breakdown of the rules, utilizing tables and explanations to clarify the *why* and *how* behind our standards.
 
 ## How to Use This Repository
 - **Read the Documentation:** Start by reading `CONVENTIONS.md` to familiarize yourself with the overarching rules regarding naming, ordering, spacing, and structure.
 - **Study the Code:** Open the Java files provided in this repository.
 - **Reference During Reviews:** Use this repository as a guideline when submitting or reviewing Pull Requests. If there is ever a debate about formatting, this repository acts as the single source of truth.
+
+## Questions & Suggestions
+If you have any questions regarding these conventions, or if you have suggestions for improvements or new rules, please feel free to raise an issue in this repository.
