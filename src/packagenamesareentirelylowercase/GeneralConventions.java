@@ -34,7 +34,7 @@ public class GeneralConventions {
     // - Boolean variables/methods must start with prefixes like "is" or "should".
     // =========================================================================
 
-    public static final boolean IS_FOC_ENABLED = true;
+    public static final boolean IS_FOC_ENABLED = true; // This is a constant. It usually goes in a relevant constants file
     public static final int PUBLIC_STATIC_FINAL_VARIABLES_COME_FIRST = 1;
     protected static final int PROTECTED_ACCESS_COMES_AFTER_PUBLIC = 2;
     static final int DEFAULT_ACCESS_COMES_AFTER_PROTECTED = 3;
