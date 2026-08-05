@@ -26,12 +26,3 @@ replay_pid*
 # JetBrains IDE
 *.iml
 .idea/
-
-# Gradle
-.gradle/
-build/
-local.properties
-
-# OS specific files
-.DS_Store
-Thumbs.db
