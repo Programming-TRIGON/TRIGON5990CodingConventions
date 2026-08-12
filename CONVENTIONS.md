@@ -55,6 +55,7 @@ Methods follow a similar hierarchical structure to keep class flow predictable:
 - **Method Parameters:** Method parameters should **never** be marked as `final`.
 
 ## 5. Formatting and Spacing
+- **Variable Grouping:** When declaring similar variables or constants of the same type, write the access modifier and type once, and separate each variable with a comma and a new line.
 - **Method Spacing:** There must be exactly **one** blank line before and after each method. Never use more than one consecutive blank line anywhere in a file.
 - **Logical Grouping:** Separate large blocks of code within a method by a single blank line where it logically makes sense (e.g., separating a calculation block from a validation block).
 - **Curly Braces:** If an `if` statement or a `for` loop contains only a single short statement, **omit** the curly brackets.

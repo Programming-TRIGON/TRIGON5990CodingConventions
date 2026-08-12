@@ -15,11 +15,15 @@ public class GeneralConventions {
 
     // Similar constants should be logically grouped together with a single blank
     // line separating each group. This is especially important in SubsystemConstants.
-    public static final int LEFT_INTAKE_MOTOR_ID = 1;
-    public static final int RIGHT_INTAKE_MOTOR_ID = 2;
+    // When declaring similar variables of the same type, write the modifier and type
+    // once, and separate the variables with commas on new lines.
+    public static final int
+            LEFT_INTAKE_MOTOR_ID = 1,
+            RIGHT_INTAKE_MOTOR_ID = 2;
 
-    public static final double COLLECTION_VOLTAGE = 5;
-    public static final double EJECTION_VOLTAGE = -3;
+    public static final double
+            COLLECTION_VOLTAGE = 5.0,
+            EJECTION_VOLTAGE = -3.0;
 
     // =========================================================================
     // VARIABLE ORDERING & NAMING
